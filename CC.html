@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+	 background-image: url("ball.jpg");
+   margin-right: 10px;
+	}
+.text_area{
+width:75%;
+margin-left:25%;
+	}
+input[type=text], select {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border:none;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #459aa0;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+<div class="text_area">
+  <h1 class="main-heading">CC EVENT DETAILS</h1>
+  <form>
+    <label for="usn">USN</label>
+    <input type="text" id="usn" name="usn" placeholder="usn">
+
+    <label for="cname">College name</label>
+    <input type="text" id="cname" name="college_name" placeholder="college name">
+	
+	
+    <label for="cname">Branch</label>
+    <input type="text" id="bname" name="branch" placeholder="branch">
+	
+	
+    <label for="cname">Date of event</label>
+    <input type="date" id="date" name="date_of_event" placeholder="dd-mm-yyy">
+	<br>
+    <label for="cname">Place of event</label>
+    <input type="text" id="pevent" name="place_of_event" placeholder="place of event">
+	
+	
+    <label for="cname">Name of the event</label>
+    <input type="text" id="nevent" name="name_of_event" placeholder="name of the event">
+	
+	
+    <label for="cname">Awarded</label>
+    <input type="text" id="award" name="awarded" placeholder="awarded">
+
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

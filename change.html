@@ -1,0 +1,19 @@
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>UpdatePassword</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body onload='document.form1.USNNUMBER.focus()'>
+<form  name="form1" class="box" action="update.php" method="post" style=border-radius:25px;>
+<h1>Change Password</h1>
+<input type="text" name="jntuno" placeholder="USNNumber" required>
+<input type="password" name="curpass" placeholder="currentPassword" required>
+<input type="password" name="newpass" placeholder="Newpassword" required>
+<input type="password" name="confnewpass" placeholder="ConfNewpassword" required>
+
+<input type="submit" name="Validate" value="submit" onclick="ValidateEmail(document.form1.text1)">
+</form>
+
+</body>
+</html>

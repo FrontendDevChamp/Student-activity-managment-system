@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        
+             
+             <body>
+                <div style="background-color:rgba(100,200,255,0.5);"align="center">
+            <h2></h2>
+            </div>
+            <br>
+            <br>
+         
+            <div style="background-color:rgba(100,200,255,0.5);"align="center">
+
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <h2>UPLOAD YOUR EC CERTIFICATE</h2>
+                    <br>
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                            <td height="70" width="100">YEAR</td>
+                            <td>
+                                <input type="text" required="required" name="year"class="resxtbox"pattern="[1-5]{1}" title ="please enter a 1 digit number between 1 to 5.">
+                                <br>
+                                <br>
+
+                            </td>
+                            </tr>
+                             
+                            <tr>
+                            <td height="70" width="100">BRANCH</td>
+                               <td>
+                                <input type="text" required="required" name="BRACH"class="resxtbox">
+                                <br>
+                                <br>
+                                </td>
+                            </tr>
+
+
+                                <tr>
+                                <td height="70" width="100">USN NUMBER</td>
+                               <td>
+                                <input type="text" required="required" name="usn number"class="resxtbox">
+                                <br>
+                                <br>
+
+                            </td>
+                        </tr>
+                              
+                              
+                        <tr>
+                            <td height="70" width="100">SECTION</td>
+                            <td>
+                                <input type="text" required="required" name="sectionr"class="resxtbox">
+                                <br>
+                                <br>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                            
+                                <input type="file" class="cck" name="sfile" id="fileName" accept="image/*">
+                                <br>
+                                <br>
+
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" >
+                                <input class="cck" type="submit" name="notification" value="upload">
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+            </div>
+        </body>
+    </head>
+</html>
